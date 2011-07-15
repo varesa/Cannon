@@ -1,4 +1,4 @@
-package fi.dy.esav.TwoDGraphicsTest;
+package fi.dy.esav.Cannon;
 
 import java.awt.geom.*;
 
@@ -11,6 +11,9 @@ public class Control {
 	
 	public static boolean left,right,up,down,space;
 	public static double angle = 90 ,velocity = 100;
+	
+	public static boolean firstStep;
+
 	
 	public static void calcCannonPos() {
 		if (down==true) {
@@ -43,13 +46,19 @@ public class Control {
 		
 	}
 	
+	
 	public static void fire() {
-		TwoDGraphicsTest.flying=true;
+		Cannon.flying=true;
+		firstStep=true;
 	}
+	
+	static double ballX, ballY, ballVX, ballVY;
 	
 	public static void calcBallPos() {
 		// TODO Auto-generated method stub
-		
+		if(firstStep) {
+			ballX = 0;
+		}
 	}
 	// (x+dcosα,y+dsinα)
 		

@@ -1,4 +1,4 @@
-package fi.dy.esav.TwoDGraphicsTest;
+package fi.dy.esav.Cannon;
 
 public class Wait {
 

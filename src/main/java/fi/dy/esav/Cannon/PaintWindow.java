@@ -1,4 +1,4 @@
-package fi.dy.esav.TwoDGraphicsTest;
+package fi.dy.esav.Cannon;
 
 import java.awt.Frame;
 import java.awt.Graphics;
@@ -15,7 +15,7 @@ public class PaintWindow extends Frame {
 	 */
 	private static final long serialVersionUID = 1L;
 	static boolean lastState;
-	TwoDGraphicsTest main = TwoDGraphicsTest.inst;
+	Cannon main = Cannon.inst;
 
 	public PaintWindow() {
 		super("2D graphics test");

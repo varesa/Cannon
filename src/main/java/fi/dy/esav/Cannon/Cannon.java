@@ -1,12 +1,12 @@
-package fi.dy.esav.TwoDGraphicsTest;
+package fi.dy.esav.Cannon;
 
-public class TwoDGraphicsTest {
+public class Cannon {
 
 	/**
 	 * @param args
 	 */
 	
-	public static TwoDGraphicsTest inst;
+	public static Cannon inst;
 	
 	public static boolean flying = false;
 	public static void main(String[] args) {
