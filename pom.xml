@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>fi.dy.esav</groupId>
   <artifactId>Cannon</artifactId>
-  <version>0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>Cannon</name>
   <distributionManagement>
     <repository>
